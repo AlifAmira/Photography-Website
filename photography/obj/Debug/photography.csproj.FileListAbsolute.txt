@@ -1,0 +1,6 @@
+C:\Users\Mahade Hasan\Documents\Visual Studio 2013\Projects\photography\photography\bin\photography.dll.config
+C:\Users\Mahade Hasan\Documents\Visual Studio 2013\Projects\photography\photography\bin\photography.dll
+C:\Users\Mahade Hasan\Documents\Visual Studio 2013\Projects\photography\photography\bin\photography.pdb
+C:\Users\Mahade Hasan\Documents\Visual Studio 2013\Projects\photography\photography\obj\Debug\photography.csprojResolveAssemblyReference.cache
+C:\Users\Mahade Hasan\Documents\Visual Studio 2013\Projects\photography\photography\obj\Debug\photography.dll
+C:\Users\Mahade Hasan\Documents\Visual Studio 2013\Projects\photography\photography\obj\Debug\photography.pdb

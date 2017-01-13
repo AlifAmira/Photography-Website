@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="common.master.cs" Inherits="photography.common" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Mahade Hasan Photography</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/portfolio_one.css" rel="stylesheet" type="text/css" />
+  <link href="css/colour.css" rel="stylesheet" type="text/css" />
+  
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div id="main">
+
+   
+    <header>
+      <div id="logo"><h1>MahadeHasan<a href="home.aspx"> Photography</a></h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="home.aspx">home</a></li>
+          <li><a href="about.aspx">about me</a></li>
+          <li><a href="portfolio.aspx">portfolio</a></li>
+          
+          
+          <li><a href="contact.aspx">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+        <div id="site_content">
+             </div>
+
+    <footer>
+      <p>Copyright &copy; 2015 Mahade Hasan. All Rights Reserved.</p>
+ 
+    </footer>
+         
+     </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+      $(document).ready(function () {
+          $('ul.sf-menu').sooperfish();
+      });
+  </script>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
